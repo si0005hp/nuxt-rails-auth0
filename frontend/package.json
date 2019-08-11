@@ -5,7 +5,7 @@
   "author": "si0005hp <si0005hp@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "HOST=0.0.0.0 PORT=3333 nuxt",
+    "dev": "cross-env NODE_ENV=development HOST=0.0.0.0 PORT=3333 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -13,6 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/proxy": "^1.2.4",
     "auth0-lock": "^11.7.1",
     "jwt-decode": "^2.2.0",
     "nuxt": "^1.0.0",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "cross-env": "^5.1.6",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
