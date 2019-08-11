@@ -49,6 +49,9 @@ const config = {
     domain: 'si0005hp-dev1.auth0.com',
     clientID: 'ij432Da6kzxbArLbqRPsPaB4TXOFs86Y'
   },
+  generate: {
+    dir: '../public'
+  }
 }
 
 module.exports = config
