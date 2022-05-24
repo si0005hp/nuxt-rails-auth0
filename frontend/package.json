@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
     "@nuxtjs/proxy": "^1.2.4",
-    "auth0-lock": "^11.7.1",
+    "auth0-lock": "^11.33.0",
     "jwt-decode": "^2.2.0",
     "nuxt": "^1.0.0",
     "query-string": "^6.1.0"
